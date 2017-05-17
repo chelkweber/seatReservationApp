@@ -5,6 +5,15 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+#screen {
+	background-color: black;
+	width: 80%;
+	height: 5%;
+	border-style: ridge;
+	margin: 2% auto;
+	color: white;
+}
+
 #seating-area {
 	width: 98%;
 	margin: 0 auto;
@@ -28,16 +37,16 @@ body {
 }
 /*styling form and buttons*/
 #submit-btn {
-  border: 1px solid #777777;
-  background: #646362;
-  font: bold;
+	border: 1px solid #777777;
+	background: #646362;
+	font: bold;
 	font-size: 20px;
-color:		#E5E7E6;
-  margin-top: 10px;
-  padding: 8px;
-  cursor: pointer;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
+	color: #E5E7E6;
+	margin-top: 10px;
+	padding: 8px;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 	font-family: 'Roboto Mono', monospace;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
@@ -49,6 +58,7 @@ color:		#E5E7E6;
 	border-radius: 10px;
 	border-style: inset;
 	background-color: rgba(200, 27, 20, 0.75);
+	display: none;
 
 }
 #book {
